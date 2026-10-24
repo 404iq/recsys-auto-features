@@ -1,0 +1,1168 @@
+{
+ "accepted": [
+  "item__all__h14__dur__none__-",
+  "di_sex__drop__w30__cnt__lift__-",
+  "ua_actor__all__h60__dur__share__sum",
+  "ua_genre__complete__h14__cnt__lift__max",
+  "item__all__h14__cnt__none__-",
+  "item__complete__h14__pct__none__-"
+ ],
+ "history": [
+  {
+   "step": 0,
+   "accepted": "item__all__h14__dur__none__-",
+   "ndcg": 0.1513394551908235,
+   "tried": [
+    {
+     "spec": "item__complete__all__pct__none__-",
+     "cheap": 0.4847215559227922
+    },
+    {
+     "spec": "item__complete__w30__cnt__rate__-",
+     "cheap": 0.48461404590914314
+    },
+    {
+     "spec": "item__all__h14__dur__none__-",
+     "cheap": 0.48431084739223257
+    },
+    {
+     "spec": "di_income__complete__w30__cnt__lift__-",
+     "cheap": 0.48394592689502913
+    },
+    {
+     "spec": "di_sex__all__h30__dur__share__-",
+     "cheap": 0.4838240437356459
+    },
+    {
+     "spec": "di_age__complete__w30__cnt__lift__-",
+     "cheap": 0.4825537159443532
+    },
+    {
+     "spec": "item__all__all__recency__none__-",
+     "cheap": 0.4822326622657493
+    },
+    {
+     "spec": "ua_genre__all__h30__dur__share__sum",
+     "cheap": 0.4819919417594048
+    },
+    {
+     "spec": "user__all__w30__cnt__none__-",
+     "cheap": 0.48189239460161276
+    },
+    {
+     "spec": "item__all__w7__cnt__none__-",
+     "cheap": 0.48179625372633467
+    },
+    {
+     "spec": "ua_decade__complete__h30__cnt__lift__max",
+     "cheap": 0.4816576569745814
+    },
+    {
+     "spec": "user__all__all__first__none__-",
+     "cheap": 0.4813788024332762
+    },
+    {
+     "spec": "ua_genre__complete__w30__cnt__lift__max",
+     "cheap": 0.4812809285822063
+    },
+    {
+     "spec": "di_kids_flg__complete__w14__cnt__lift__-",
+     "cheap": 0.4812485828745585
+    },
+    {
+     "spec": "ua_actor__complete__w30__cnt__lift__max",
+     "cheap": 0.48091941928227583
+    },
+    {
+     "spec": "ua_director__complete__w14__cnt__lift__max",
+     "cheap": 0.4808299354310794
+    },
+    {
+     "spec": "ua_content_type__all__w7__cnt__share__mean",
+     "cheap": 0.4807845288378483
+    },
+    {
+     "spec": "item__drop__w30__cnt__rate__-",
+     "cheap": 0.48051544287028997
+    },
+    {
+     "spec": "user__all__h30__dur__none__-",
+     "cheap": 0.4800107576572089
+    },
+    {
+     "spec": "user__complete__all__pct__none__-",
+     "cheap": 0.47989008935684524
+    },
+    {
+     "spec": "ua_country__complete__w14__cnt__lift__max",
+     "cheap": 0.4795509822417148
+    },
+    {
+     "spec": "ua_age_rating__all__w30__cnt__share__mean",
+     "cheap": 0.4793780469475926
+    },
+    {
+     "spec": "user__complete__w7__cnt__rate__-",
+     "cheap": 0.4790376710667226
+    },
+    {
+     "spec": "user__drop__w14__cnt__rate__-",
+     "cheap": 0.4790063390760089
+    }
+   ],
+   "full": [
+    {
+     "spec": "item__complete__all__pct__none__-",
+     "ndcg": 0.14960822080433647
+    },
+    {
+     "spec": "item__complete__w30__cnt__rate__-",
+     "ndcg": 0.14533715690884594
+    },
+    {
+     "spec": "item__all__h14__dur__none__-",
+     "ndcg": 0.1513394551908235
+    },
+    {
+     "spec": "di_income__complete__w30__cnt__lift__-",
+     "ndcg": 0.1482750654850778
+    }
+   ],
+   "elapsed": 168.96055319998413
+  },
+  {
+   "step": 1,
+   "accepted": "di_sex__drop__w30__cnt__lift__-",
+   "ndcg": 0.1524238480718015,
+   "tried": [
+    {
+     "spec": "ua_decade__all__h60__dur__share__sum",
+     "cheap": 0.48780916577055256
+    },
+    {
+     "spec": "di_sex__drop__w30__cnt__lift__-",
+     "cheap": 0.4877045026815399
+    },
+    {
+     "spec": "ua_age_rating__complete__w14__cnt__lift__max",
+     "cheap": 0.48717904846522153
+    },
+    {
+     "spec": "ua_genre__complete__w14__cnt__lift__max",
+     "cheap": 0.48689963617896564
+    },
+    {
+     "spec": "user__all__w14__cnt__none__-",
+     "cheap": 0.4868258711030874
+    },
+    {
+     "spec": "item__complete__all__cnt__rate__-",
+     "cheap": 0.48657411946218493
+    },
+    {
+     "spec": "di_kids_flg__all__h30__dur__share__-",
+     "cheap": 0.48597287852371535
+    },
+    {
+     "spec": "ua_country__all__w30__dur__lift__max",
+     "cheap": 0.4857877290854571
+    },
+    {
+     "spec": "ua_actor__all__h30__cnt__share__mean",
+     "cheap": 0.4857198305231633
+    },
+    {
+     "spec": "di_age__all__h14__dur__lift__-",
+     "cheap": 0.4855655108474298
+    },
+    {
+     "spec": "di_income__complete__w7__cnt__share__-",
+     "cheap": 0.48540860287464965
+    },
+    {
+     "spec": "ua_director__complete__h14__cnt__lift__max",
+     "cheap": 0.4853819944492663
+    },
+    {
+     "spec": "item__all__all__first__none__-",
+     "cheap": 0.4852570417252197
+    },
+    {
+     "spec": "ua_genre__all__h14__dur__share__sum",
+     "cheap": 0.48522780172342533
+    },
+    {
+     "spec": "item__drop__all__pct__none__-",
+     "cheap": 0.4851290828918533
+    },
+    {
+     "spec": "ua_content_type__complete__w7__cnt__rate__mean",
+     "cheap": 0.4850860824002419
+    },
+    {
+     "spec": "user__all__h14__cnt__none__-",
+     "cheap": 0.484867394558701
+    },
+    {
+     "spec": "di_age__complete__w14__cnt__rate__-",
+     "cheap": 0.4848638927307735
+    },
+    {
+     "spec": "user__drop__w30__cnt__rate__-",
+     "cheap": 0.48473558272598266
+    },
+    {
+     "spec": "di_income__all__w30__pct__none__-",
+     "cheap": 0.48470731649527066
+    },
+    {
+     "spec": "item__all__h7__dur__none__-",
+     "cheap": 0.4844080873288342
+    },
+    {
+     "spec": "user__complete__h30__dur__none__-",
+     "cheap": 0.48434934315065886
+    },
+    {
+     "spec": "item__complete__w14__cnt__none__-",
+     "cheap": 0.48424676050237325
+    },
+    {
+     "spec": "item__all__h30__cnt__none__-",
+     "cheap": 0.4840621985438411
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_decade__all__h60__dur__share__sum",
+     "ndcg": 0.15075793328067127
+    },
+    {
+     "spec": "di_sex__drop__w30__cnt__lift__-",
+     "ndcg": 0.1524238480718015
+    },
+    {
+     "spec": "ua_age_rating__complete__w14__cnt__lift__max",
+     "ndcg": 0.15057766865147995
+    },
+    {
+     "spec": "ua_genre__complete__w14__cnt__lift__max",
+     "ndcg": 0.15227407702190965
+    }
+   ],
+   "elapsed": 310.38212700001895
+  },
+  {
+   "step": 2,
+   "accepted": "ua_actor__all__h60__dur__share__sum",
+   "ndcg": 0.15315842686600656,
+   "tried": [
+    {
+     "spec": "user__all__w7__cnt__none__-",
+     "cheap": 0.4876852477236743
+    },
+    {
+     "spec": "di_sex__complete__w14__cnt__rate__-",
+     "cheap": 0.4873859410972877
+    },
+    {
+     "spec": "ua_country__complete__h14__dur__lift__max",
+     "cheap": 0.4872979544799387
+    },
+    {
+     "spec": "ua_actor__all__h60__dur__share__sum",
+     "cheap": 0.4870727891435673
+    },
+    {
+     "spec": "ua_genre__complete__w7__cnt__lift__max",
+     "cheap": 0.4869426742549305
+    },
+    {
+     "spec": "ua_genre__drop__w30__cnt__share__mean",
+     "cheap": 0.48684564053842116
+    },
+    {
+     "spec": "ua_director__drop__w14__cnt__rate__mean",
+     "cheap": 0.4868335403083733
+    },
+    {
+     "spec": "item__drop__w7__cnt__none__-",
+     "cheap": 0.48682945796105564
+    },
+    {
+     "spec": "item__all__h30__dur__share__-",
+     "cheap": 0.4867485467434031
+    },
+    {
+     "spec": "ua_actor__complete__w30__dur__rate__mean",
+     "cheap": 0.48666713104947756
+    },
+    {
+     "spec": "item__complete__h14__cnt__rate__-",
+     "cheap": 0.486594581169178
+    },
+    {
+     "spec": "di_kids_flg__complete__w7__cnt__rate__-",
+     "cheap": 0.4864991823980029
+    },
+    {
+     "spec": "di_age__complete__w30__cnt__share__-",
+     "cheap": 0.48643741308009175
+    },
+    {
+     "spec": "di_income__drop__w30__cnt__lift__-",
+     "cheap": 0.4863899759983274
+    },
+    {
+     "spec": "di_age__drop__w7__cnt__lift__-",
+     "cheap": 0.4863681623001675
+    },
+    {
+     "spec": "ua_director__all__h30__dur__lift__sum",
+     "cheap": 0.4861594004587121
+    },
+    {
+     "spec": "item__complete__w30__dur__rate__-",
+     "cheap": 0.4861363065362301
+    },
+    {
+     "spec": "user__complete__w14__cnt__rate__-",
+     "cheap": 0.48593783037467425
+    },
+    {
+     "spec": "ua_decade__complete__w14__cnt__lift__sum",
+     "cheap": 0.485915515898895
+    },
+    {
+     "spec": "di_income__complete__w14__cnt__rate__-",
+     "cheap": 0.48560683230334023
+    },
+    {
+     "spec": "di_kids_flg__all__h14__dur__lift__-",
+     "cheap": 0.48552160683257306
+    },
+    {
+     "spec": "ua_content_type__drop__w7__cnt__lift__max",
+     "cheap": 0.4855046510227379
+    },
+    {
+     "spec": "ua_country__drop__w14__cnt__share__mean",
+     "cheap": 0.48532621354620864
+    },
+    {
+     "spec": "ua_age_rating__all__h14__cnt__share__max",
+     "cheap": 0.48518287495214063
+    }
+   ],
+   "full": [
+    {
+     "spec": "user__all__w7__cnt__none__-",
+     "ndcg": 0.15267730003496374
+    },
+    {
+     "spec": "di_sex__complete__w14__cnt__rate__-",
+     "ndcg": 0.15270684963845632
+    },
+    {
+     "spec": "ua_country__complete__h14__dur__lift__max",
+     "ndcg": 0.15257001360907796
+    },
+    {
+     "spec": "ua_actor__all__h60__dur__share__sum",
+     "ndcg": 0.15315842686600656
+    }
+   ],
+   "elapsed": 514.103662199981
+  },
+  {
+   "step": 3,
+   "accepted": "ua_genre__complete__h14__cnt__lift__max",
+   "ndcg": 0.15404779247290126,
+   "tried": [
+    {
+     "spec": "ua_genre__complete__h14__cnt__lift__max",
+     "cheap": 0.48882096015565185
+    },
+    {
+     "spec": "ua_director__all__h14__dur__share__sum",
+     "cheap": 0.48875953102405717
+    },
+    {
+     "spec": "ua_country__all__h30__dur__share__sum",
+     "cheap": 0.4884112079917752
+    },
+    {
+     "spec": "ua_actor__drop__w30__cnt__share__mean",
+     "cheap": 0.48827936257666854
+    },
+    {
+     "spec": "di_sex__complete__w7__cnt__lift__-",
+     "cheap": 0.4882621954594371
+    },
+    {
+     "spec": "ua_decade__complete__w14__dur__lift__sum",
+     "cheap": 0.48820857485666597
+    },
+    {
+     "spec": "ua_decade__all__h30__dur__share__max",
+     "cheap": 0.48791358015313757
+    },
+    {
+     "spec": "di_kids_flg__drop__w30__cnt__lift__-",
+     "cheap": 0.4876339948505209
+    },
+    {
+     "spec": "ua_age_rating__drop__w14__cnt__lift__max",
+     "cheap": 0.48762350796343157
+    },
+    {
+     "spec": "di_income__complete__h14__dur__lift__-",
+     "cheap": 0.4875722691381998
+    },
+    {
+     "spec": "item__all__h30__dur__none__-",
+     "cheap": 0.4875378774644425
+    },
+    {
+     "spec": "item__all__w14__cnt__none__-",
+     "cheap": 0.4873964724472649
+    },
+    {
+     "spec": "item__drop__h14__cnt__rate__-",
+     "cheap": 0.48722478370174616
+    },
+    {
+     "spec": "di_sex__all__h14__dur__lift__-",
+     "cheap": 0.48714307606180707
+    },
+    {
+     "spec": "di_age__drop__w14__cnt__share__-",
+     "cheap": 0.4871093311316942
+    },
+    {
+     "spec": "ua_actor__complete__h14__dur__lift__max",
+     "cheap": 0.4870407143611462
+    },
+    {
+     "spec": "ua_director__complete__w30__cnt__lift__mean",
+     "cheap": 0.4868759330882733
+    },
+    {
+     "spec": "item__all__h60__cnt__none__-",
+     "cheap": 0.48681368783558787
+    },
+    {
+     "spec": "ua_country__drop__w14__cnt__lift__max",
+     "cheap": 0.48678341335690806
+    },
+    {
+     "spec": "item__complete__w7__cnt__rate__-",
+     "cheap": 0.48668870373070106
+    },
+    {
+     "spec": "di_age__complete__w30__dur__rate__-",
+     "cheap": 0.48652939619310426
+    },
+    {
+     "spec": "item__complete__w14__dur__rate__-",
+     "cheap": 0.4864932885664116
+    },
+    {
+     "spec": "ua_content_type__all__h14__dur__share__mean",
+     "cheap": 0.48596720349792516
+    },
+    {
+     "spec": "ua_genre__all__h14__dur__share__mean",
+     "cheap": 0.48507684151940894
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_genre__complete__h14__cnt__lift__max",
+     "ndcg": 0.15404779247290126
+    },
+    {
+     "spec": "ua_director__all__h14__dur__share__sum",
+     "ndcg": 0.153701828520108
+    },
+    {
+     "spec": "ua_country__all__h30__dur__share__sum",
+     "ndcg": 0.15372197836080365
+    },
+    {
+     "spec": "ua_actor__drop__w30__cnt__share__mean",
+     "ndcg": 0.1536326678292959
+    }
+   ],
+   "elapsed": 724.2665314999758
+  },
+  {
+   "step": 4,
+   "accepted": null,
+   "ndcg": 0.15404779247290126,
+   "tried": [
+    {
+     "spec": "ua_age_rating__complete__h30__cnt__lift__max",
+     "cheap": 0.4903632460192506
+    },
+    {
+     "spec": "ua_country__complete__w7__cnt__lift__max",
+     "cheap": 0.4897509723684595
+    },
+    {
+     "spec": "ua_director__complete__h30__cnt__lift__max",
+     "cheap": 0.48896772981525516
+    },
+    {
+     "spec": "ua_decade__complete__w30__cnt__lift__max",
+     "cheap": 0.4888825632546965
+    },
+    {
+     "spec": "ua_content_type__complete__h30__cnt__lift__max",
+     "cheap": 0.4888082808711414
+    },
+    {
+     "spec": "ua_country__complete__w30__dur__lift__max",
+     "cheap": 0.48854570232124583
+    },
+    {
+     "spec": "ua_country__complete__h30__cnt__lift__max",
+     "cheap": 0.4884448755128932
+    },
+    {
+     "spec": "di_sex__drop__w7__cnt__lift__-",
+     "cheap": 0.48843189905213324
+    },
+    {
+     "spec": "ua_age_rating__drop__w30__cnt__lift__max",
+     "cheap": 0.48837076652925787
+    },
+    {
+     "spec": "di_sex__complete__w30__cnt__lift__-",
+     "cheap": 0.48822951701765205
+    },
+    {
+     "spec": "ua_country__drop__w30__cnt__lift__max",
+     "cheap": 0.48817494449771237
+    },
+    {
+     "spec": "ua_director__drop__w30__cnt__lift__max",
+     "cheap": 0.48812002266669635
+    },
+    {
+     "spec": "ua_content_type__complete__w30__cnt__lift__max",
+     "cheap": 0.48768027871509834
+    },
+    {
+     "spec": "ua_content_type__complete__w7__cnt__lift__max",
+     "cheap": 0.48766373998720597
+    },
+    {
+     "spec": "ua_age_rating__complete__w30__cnt__lift__max",
+     "cheap": 0.4876508520189188
+    },
+    {
+     "spec": "di_sex__drop__w14__cnt__lift__-",
+     "cheap": 0.48757421298075737
+    },
+    {
+     "spec": "ua_director__complete__w30__cnt__lift__max",
+     "cheap": 0.48756508501721124
+    },
+    {
+     "spec": "ua_decade__complete__w7__cnt__lift__max",
+     "cheap": 0.48736731918312415
+    },
+    {
+     "spec": "ua_decade__drop__w30__cnt__lift__max",
+     "cheap": 0.48727026295958187
+    },
+    {
+     "spec": "ua_director__complete__w7__cnt__lift__max",
+     "cheap": 0.4872691838474455
+    },
+    {
+     "spec": "ua_age_rating__complete__w7__cnt__lift__max",
+     "cheap": 0.4871756747232196
+    },
+    {
+     "spec": "ua_country__complete__w30__cnt__lift__max",
+     "cheap": 0.4867224398293788
+    },
+    {
+     "spec": "ua_content_type__drop__w30__cnt__lift__max",
+     "cheap": 0.4865828834779893
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_age_rating__complete__h30__cnt__lift__max",
+     "ndcg": 0.15420054357978663
+    },
+    {
+     "spec": "ua_country__complete__w7__cnt__lift__max",
+     "ndcg": 0.15406788784143693
+    },
+    {
+     "spec": "ua_director__complete__h30__cnt__lift__max",
+     "ndcg": 0.1540933837568304
+    },
+    {
+     "spec": "ua_decade__complete__w30__cnt__lift__max",
+     "ndcg": 0.1536975626162751
+    }
+   ],
+   "elapsed": 969.2723434999934
+  },
+  {
+   "step": 5,
+   "accepted": "item__all__h14__cnt__none__-",
+   "ndcg": 0.15507410017951817,
+   "tried": [
+    {
+     "spec": "item__all__h14__pct__none__-",
+     "cheap": 0.4900924807616586
+    },
+    {
+     "spec": "item__complete__h14__dur__rate__-",
+     "cheap": 0.48948006970771907
+    },
+    {
+     "spec": "item__drop__h14__dur__none__-",
+     "cheap": 0.48826596519299525
+    },
+    {
+     "spec": "item__all__h14__cnt__none__-",
+     "cheap": 0.4878156769409773
+    }
+   ],
+   "full": [
+    {
+     "spec": "item__all__h14__pct__none__-",
+     "ndcg": 0.15437871338769402
+    },
+    {
+     "spec": "item__complete__h14__dur__rate__-",
+     "ndcg": 0.1534795853150946
+    },
+    {
+     "spec": "item__drop__h14__dur__none__-",
+     "ndcg": 0.15446056941252836
+    },
+    {
+     "spec": "item__all__h14__cnt__none__-",
+     "ndcg": 0.15507410017951817
+    }
+   ],
+   "elapsed": 1270.0384775000275
+  },
+  {
+   "step": 6,
+   "accepted": "item__complete__h14__pct__none__-",
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "user__complete__all__cnt__rate__-",
+     "cheap": 0.48942822661832125
+    },
+    {
+     "spec": "user__complete__w14__dur__rate__-",
+     "cheap": 0.4892905469373174
+    },
+    {
+     "spec": "item__all__h30__pct__none__-",
+     "cheap": 0.48858921968315006
+    },
+    {
+     "spec": "item__complete__h14__pct__none__-",
+     "cheap": 0.4885681362912815
+    },
+    {
+     "spec": "item__all__w14__dur__none__-",
+     "cheap": 0.4868125141357245
+    }
+   ],
+   "full": [
+    {
+     "spec": "user__complete__all__cnt__rate__-",
+     "ndcg": 0.15482428197658565
+    },
+    {
+     "spec": "user__complete__w14__dur__rate__-",
+     "ndcg": 0.15517704582391578
+    },
+    {
+     "spec": "item__all__h30__pct__none__-",
+     "ndcg": 0.15476916306765048
+    },
+    {
+     "spec": "item__complete__h14__pct__none__-",
+     "ndcg": 0.15568286839253612
+    }
+   ],
+   "elapsed": 1536.0708169999998
+  },
+  {
+   "step": 7,
+   "accepted": null,
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "item__complete__w7__dur__rate__-",
+     "cheap": 0.490805717668973
+    },
+    {
+     "spec": "user__drop__all__cnt__none__-",
+     "cheap": 0.4893097829308323
+    },
+    {
+     "spec": "ua_actor__drop__w14__cnt__share__mean",
+     "cheap": 0.48908557542983644
+    },
+    {
+     "spec": "ua_director__drop__w14__cnt__lift__max",
+     "cheap": 0.4889824951126018
+    },
+    {
+     "spec": "ua_decade__all__w14__cnt__share__sum",
+     "cheap": 0.4889706750469248
+    },
+    {
+     "spec": "ua_content_type__drop__w14__cnt__lift__max",
+     "cheap": 0.48892718118231354
+    },
+    {
+     "spec": "ua_genre__drop__w14__cnt__lift__max",
+     "cheap": 0.48888818145819923
+    },
+    {
+     "spec": "item__all__w7__pct__none__-",
+     "cheap": 0.4886456637003088
+    },
+    {
+     "spec": "ua_age_rating__drop__w7__cnt__lift__max",
+     "cheap": 0.48864212723550726
+    },
+    {
+     "spec": "ua_decade__drop__w14__cnt__lift__max",
+     "cheap": 0.4885430434363078
+    },
+    {
+     "spec": "ua_genre__all__w14__dur__share__sum",
+     "cheap": 0.4885182689577556
+    },
+    {
+     "spec": "ua_age_rating__all__w14__dur__share__max",
+     "cheap": 0.48840285298255137
+    },
+    {
+     "spec": "ua_actor__complete__w14__cnt__lift__max",
+     "cheap": 0.4882283919873613
+    },
+    {
+     "spec": "item__drop__h14__pct__none__-",
+     "cheap": 0.4881762449650666
+    },
+    {
+     "spec": "ua_content_type__all__w14__cnt__share__mean",
+     "cheap": 0.4880789009971165
+    },
+    {
+     "spec": "user__complete__all__dur__rate__-",
+     "cheap": 0.48789939587281167
+    },
+    {
+     "spec": "ua_country__complete__w14__dur__lift__max",
+     "cheap": 0.48771230050077397
+    },
+    {
+     "spec": "ua_director__all__w14__dur__share__sum",
+     "cheap": 0.4876777531218084
+    },
+    {
+     "spec": "ua_country__all__w14__cnt__share__mean",
+     "cheap": 0.4876147284088467
+    }
+   ],
+   "full": [
+    {
+     "spec": "item__complete__w7__dur__rate__-",
+     "ndcg": 0.15446889199701355
+    },
+    {
+     "spec": "user__drop__all__cnt__none__-",
+     "ndcg": 0.15455985621015245
+    },
+    {
+     "spec": "ua_actor__drop__w14__cnt__share__mean",
+     "ndcg": 0.15446189525434825
+    },
+    {
+     "spec": "ua_director__drop__w14__cnt__lift__max",
+     "ndcg": 0.15433242796501795
+    }
+   ],
+   "elapsed": 1714.7937798000057
+  },
+  {
+   "step": 8,
+   "accepted": null,
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "di_age__drop__h14__cnt__lift__-",
+     "cheap": 0.49051586259239716
+    },
+    {
+     "spec": "di_age__complete__h14__cnt__lift__-",
+     "cheap": 0.49037254490482823
+    },
+    {
+     "spec": "user__complete__h14__cnt__none__-",
+     "cheap": 0.49016390733578136
+    },
+    {
+     "spec": "ua_decade__complete__h14__cnt__lift__max",
+     "cheap": 0.48992495740864056
+    },
+    {
+     "spec": "ua_content_type__complete__h14__cnt__lift__max",
+     "cheap": 0.4895413671688446
+    },
+    {
+     "spec": "di_sex__complete__h14__cnt__lift__-",
+     "cheap": 0.4894314629994354
+    },
+    {
+     "spec": "ua_country__complete__h14__cnt__lift__max",
+     "cheap": 0.4890566632303368
+    },
+    {
+     "spec": "user__all__h14__dur__none__-",
+     "cheap": 0.4888610515233551
+    },
+    {
+     "spec": "di_income__drop__h14__cnt__lift__-",
+     "cheap": 0.4888340454254409
+    },
+    {
+     "spec": "di_kids_flg__complete__h14__cnt__lift__-",
+     "cheap": 0.48878656045074875
+    },
+    {
+     "spec": "item__complete__h30__cnt__none__-",
+     "cheap": 0.48876581239266875
+    },
+    {
+     "spec": "ua_genre__complete__h30__cnt__lift__max",
+     "cheap": 0.4886528874345762
+    },
+    {
+     "spec": "item__all__h7__cnt__none__-",
+     "cheap": 0.48840336574551735
+    },
+    {
+     "spec": "user__drop__all__cnt__rate__-",
+     "cheap": 0.4882949124657101
+    },
+    {
+     "spec": "ua_actor__complete__h14__cnt__lift__max",
+     "cheap": 0.4881562465473024
+    },
+    {
+     "spec": "ua_age_rating__complete__h14__cnt__lift__max",
+     "cheap": 0.48815008639722063
+    },
+    {
+     "spec": "item__complete__h30__dur__none__-",
+     "cheap": 0.48813340705000263
+    },
+    {
+     "spec": "ua_genre__all__all__recency__none__max",
+     "cheap": 0.4879812496806279
+    },
+    {
+     "spec": "item__all__h60__dur__none__-",
+     "cheap": 0.487855387155291
+    },
+    {
+     "spec": "item__drop__h30__cnt__none__-",
+     "cheap": 0.487830896672655
+    },
+    {
+     "spec": "ua_actor__all__all__recency__none__max",
+     "cheap": 0.48781437628331425
+    },
+    {
+     "spec": "di_income__complete__h14__cnt__lift__-",
+     "cheap": 0.48776850381313125
+    },
+    {
+     "spec": "ua_director__complete__h14__dur__lift__max",
+     "cheap": 0.48756856940631105
+    },
+    {
+     "spec": "user__all__w14__dur__none__-",
+     "cheap": 0.4874646525265154
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__drop__h14__cnt__lift__-",
+     "ndcg": 0.1534857079872902
+    },
+    {
+     "spec": "di_age__complete__h14__cnt__lift__-",
+     "ndcg": 0.15398546125122486
+    },
+    {
+     "spec": "user__complete__h14__cnt__none__-",
+     "ndcg": 0.15584657324016454
+    },
+    {
+     "spec": "ua_decade__complete__h14__cnt__lift__max",
+     "ndcg": 0.15502382374760934
+    }
+   ],
+   "elapsed": 1903.1250284999842
+  },
+  {
+   "step": 9,
+   "accepted": null,
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "item__complete__h30__pct__none__-",
+     "cheap": 0.49037640727193427
+    },
+    {
+     "spec": "user__drop__w3__cnt__none__-",
+     "cheap": 0.48966329417066823
+    },
+    {
+     "spec": "user__all__all__recency__none__-",
+     "cheap": 0.48923237285909194
+    },
+    {
+     "spec": "user__complete__h30__cnt__rate__-",
+     "cheap": 0.48911862050798405
+    },
+    {
+     "spec": "item__complete__w30__pct__none__-",
+     "cheap": 0.4890535634312146
+    },
+    {
+     "spec": "item__complete__h30__cnt__rate__-",
+     "cheap": 0.4888208759418276
+    },
+    {
+     "spec": "item__drop__w14__pct__none__-",
+     "cheap": 0.488722347381132
+    },
+    {
+     "spec": "user__complete__w3__dur__rate__-",
+     "cheap": 0.48857867810487476
+    },
+    {
+     "spec": "user__drop__w7__dur__none__-",
+     "cheap": 0.4885432439918974
+    },
+    {
+     "spec": "item__drop__h14__dur__rate__-",
+     "cheap": 0.48844119734196806
+    }
+   ],
+   "full": [
+    {
+     "spec": "item__complete__h30__pct__none__-",
+     "ndcg": 0.15497011448007683
+    },
+    {
+     "spec": "user__drop__w3__cnt__none__-",
+     "ndcg": 0.15397622743641917
+    },
+    {
+     "spec": "user__all__all__recency__none__-",
+     "ndcg": 0.1547524241587583
+    },
+    {
+     "spec": "user__complete__h30__cnt__rate__-",
+     "ndcg": 0.15475917118182714
+    }
+   ],
+   "elapsed": 2199.554967199976
+  },
+  {
+   "step": 10,
+   "accepted": null,
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "item__complete__h7__cnt__rate__-",
+     "cheap": 0.4901360143211103
+    },
+    {
+     "spec": "ua_director__drop__h14__cnt__share__mean",
+     "cheap": 0.489760152347286
+    },
+    {
+     "spec": "di_age__complete__w7__cnt__lift__-",
+     "cheap": 0.48950474885451484
+    },
+    {
+     "spec": "ua_decade__drop__h14__cnt__share__mean",
+     "cheap": 0.4894345074201614
+    },
+    {
+     "spec": "user__drop__h14__dur__none__-",
+     "cheap": 0.489348125250355
+    },
+    {
+     "spec": "ua_decade__all__h14__cnt__share__sum",
+     "cheap": 0.4893424313332221
+    },
+    {
+     "spec": "item__drop__h7__pct__none__-",
+     "cheap": 0.48934079649731
+    },
+    {
+     "spec": "user__complete__all__recency__none__-",
+     "cheap": 0.48906855167304775
+    },
+    {
+     "spec": "item__complete__h7__pct__none__-",
+     "cheap": 0.48898372525238815
+    },
+    {
+     "spec": "user__drop__h14__cnt__none__-",
+     "cheap": 0.4888365895240631
+    },
+    {
+     "spec": "user__complete__h30__dur__rate__-",
+     "cheap": 0.48883357153312773
+    },
+    {
+     "spec": "ua_age_rating__all__h14__dur__share__mean",
+     "cheap": 0.4887402667525497
+    },
+    {
+     "spec": "ua_country__drop__h14__cnt__share__mean",
+     "cheap": 0.4886272068621967
+    },
+    {
+     "spec": "ua_director__drop__h14__dur__share__mean",
+     "cheap": 0.48862262075196433
+    },
+    {
+     "spec": "di_income__complete__w7__cnt__lift__-",
+     "cheap": 0.48855024500783345
+    },
+    {
+     "spec": "di_kids_flg__complete__h7__cnt__lift__-",
+     "cheap": 0.4885444137805395
+    },
+    {
+     "spec": "item__drop__h7__cnt__rate__-",
+     "cheap": 0.4885334130825483
+    },
+    {
+     "spec": "user__complete__h7__cnt__rate__-",
+     "cheap": 0.48845938998220173
+    },
+    {
+     "spec": "item__drop__h30__pct__none__-",
+     "cheap": 0.4884068180158606
+    },
+    {
+     "spec": "user__drop__h14__pct__none__-",
+     "cheap": 0.48832583448921907
+    },
+    {
+     "spec": "item__complete__w7__pct__none__-",
+     "cheap": 0.4874808101212255
+    },
+    {
+     "spec": "di_age__drop__h7__cnt__lift__-",
+     "cheap": 0.48734184402747815
+    },
+    {
+     "spec": "di_sex__complete__h7__cnt__lift__-",
+     "cheap": 0.4873260121262818
+    },
+    {
+     "spec": "ua_content_type__all__h14__cnt__share__max",
+     "cheap": 0.48645465629099105
+    }
+   ],
+   "full": [
+    {
+     "spec": "item__complete__h7__cnt__rate__-",
+     "ndcg": 0.1550544965920639
+    },
+    {
+     "spec": "ua_director__drop__h14__cnt__share__mean",
+     "ndcg": 0.15441680900265234
+    },
+    {
+     "spec": "di_age__complete__w7__cnt__lift__-",
+     "ndcg": 0.15409832934881296
+    },
+    {
+     "spec": "ua_decade__drop__h14__cnt__share__mean",
+     "ndcg": 0.15413074686344183
+    }
+   ],
+   "elapsed": 2477.065904500021
+  },
+  {
+   "step": 11,
+   "accepted": null,
+   "ndcg": 0.15568286839253612,
+   "tried": [
+    {
+     "spec": "di_age__drop__h30__cnt__lift__-",
+     "cheap": 0.4906633177521441
+    },
+    {
+     "spec": "di_age__complete__h7__cnt__lift__-",
+     "cheap": 0.48878544820968933
+    },
+    {
+     "spec": "di_kids_flg__drop__h14__cnt__lift__-",
+     "cheap": 0.48867970306408914
+    },
+    {
+     "spec": "di_income__drop__h14__cnt__share__-",
+     "cheap": 0.4885808737146481
+    },
+    {
+     "spec": "item__drop__h7__dur__rate__-",
+     "cheap": 0.4875528347288511
+    },
+    {
+     "spec": "di_income__complete__h7__cnt__lift__-",
+     "cheap": 0.4873685922320698
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__drop__h30__cnt__lift__-",
+     "ndcg": 0.1540819731670837
+    },
+    {
+     "spec": "di_age__complete__h7__cnt__lift__-",
+     "ndcg": 0.15475395332812827
+    },
+    {
+     "spec": "di_kids_flg__drop__h14__cnt__lift__-",
+     "ndcg": 0.1545686852442549
+    },
+    {
+     "spec": "di_income__drop__h14__cnt__share__-",
+     "ndcg": 0.15435710656187196
+    }
+   ],
+   "elapsed": 2682.1215990000055
+  }
+ ]
+}

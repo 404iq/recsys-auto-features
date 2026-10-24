@@ -1,0 +1,13 @@
+data/
+.venv/
+*.zip
+.ipynb_checkpoints/
+.env
+
+# кэш: промежуточные таблицы пересчитываются за минуты,
+# а результаты поисков и ответы LLM коммитим, чтобы ноутбук воспроизводился без API
+cache/*
+!cache/llm_log.jsonl
+!cache/llm_stats.json
+!cache/search_*.json
+!cache/timings.json

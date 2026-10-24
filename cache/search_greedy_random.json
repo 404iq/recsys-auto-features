@@ -1,0 +1,1476 @@
+{
+ "accepted": [
+  "item__drop__w30__dur__share__-",
+  "ua_country__all__all__cnt__lift__mean",
+  "ua_genre__all__h7__dur__none__sum",
+  "di_sex__all__w7__cnt__share__-",
+  "item__all__all__dur__none__-",
+  "ua_decade__all__w60__dur__none__mean"
+ ],
+ "history": [
+  {
+   "step": 0,
+   "accepted": "item__drop__w30__dur__share__-",
+   "ndcg": 0.15082330758477233,
+   "tried": [
+    {
+     "spec": "di_age__all__all__dur__lift__-",
+     "cheap": 0.4856264079302953
+    },
+    {
+     "spec": "di_age__drop__h30__dur__share__-",
+     "cheap": 0.4840608880127965
+    },
+    {
+     "spec": "ua_genre__all__h30__cnt__none__mean",
+     "cheap": 0.4836600130274777
+    },
+    {
+     "spec": "item__drop__w30__dur__share__-",
+     "cheap": 0.48318905441541543
+    },
+    {
+     "spec": "di_age__drop__w30__cnt__share__-",
+     "cheap": 0.48316723235163944
+    },
+    {
+     "spec": "di_sex__drop__h60__dur__none__-",
+     "cheap": 0.4828600501939969
+    },
+    {
+     "spec": "di_income__drop__w14__cnt__lift__-",
+     "cheap": 0.48216413125027313
+    },
+    {
+     "spec": "di_sex__drop__h30__dur__none__-",
+     "cheap": 0.4818110354339538
+    },
+    {
+     "spec": "ua_country__all__h60__cnt__none__mean",
+     "cheap": 0.48145599019543883
+    },
+    {
+     "spec": "ua_country__all__w60__dur__share__mean",
+     "cheap": 0.48120741694701824
+    },
+    {
+     "spec": "ua_country__all__all__cnt__none__max",
+     "cheap": 0.4809900791241039
+    },
+    {
+     "spec": "ua_decade__all__w60__dur__none__max",
+     "cheap": 0.4808384665134978
+    },
+    {
+     "spec": "ua_decade__all__w60__dur__none__mean",
+     "cheap": 0.4808384665134978
+    },
+    {
+     "spec": "di_income__drop__w14__dur__lift__-",
+     "cheap": 0.48073651596713945
+    },
+    {
+     "spec": "ua_country__all__h14__dur__none__max",
+     "cheap": 0.48023313450354527
+    },
+    {
+     "spec": "ua_country__complete__h7__dur__share__sum",
+     "cheap": 0.47998858737188344
+    },
+    {
+     "spec": "ua_decade__all__all__first__none__mean",
+     "cheap": 0.47994393521703393
+    },
+    {
+     "spec": "ua_decade__complete__h30__dur__rate__max",
+     "cheap": 0.4797301697844514
+    },
+    {
+     "spec": "ua_decade__all__h60__dur__none__sum",
+     "cheap": 0.4796806471964896
+    },
+    {
+     "spec": "ua_decade__all__h30__dur__none__mean",
+     "cheap": 0.4795612042289378
+    },
+    {
+     "spec": "ua_decade__complete__h3__dur__none__mean",
+     "cheap": 0.4791468741451472
+    },
+    {
+     "spec": "ua_decade__complete__w60__cnt__rate__max",
+     "cheap": 0.4788772449397108
+    },
+    {
+     "spec": "di_income__complete__w3__dur__lift__-",
+     "cheap": 0.4786422523927794
+    },
+    {
+     "spec": "ua_decade__all__h3__cnt__lift__sum",
+     "cheap": 0.4779093442879618
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__all__all__dur__lift__-",
+     "ndcg": 0.1501299029879101
+    },
+    {
+     "spec": "di_age__drop__h30__dur__share__-",
+     "ndcg": 0.14908949837422655
+    },
+    {
+     "spec": "ua_genre__all__h30__cnt__none__mean",
+     "ndcg": 0.14990503876133024
+    },
+    {
+     "spec": "item__drop__w30__dur__share__-",
+     "ndcg": 0.15082330758477233
+    }
+   ],
+   "elapsed": 185.14176480000606
+  },
+  {
+   "step": 1,
+   "accepted": "ua_country__all__all__cnt__lift__mean",
+   "ndcg": 0.15194538340072405,
+   "tried": [
+    {
+     "spec": "ua_country__all__h7__dur__none__mean",
+     "cheap": 0.48581545207830595
+    },
+    {
+     "spec": "ua_country__all__w60__dur__lift__max",
+     "cheap": 0.48540544920342404
+    },
+    {
+     "spec": "di_kids_flg__drop__w30__cnt__lift__-",
+     "cheap": 0.4853989244977888
+    },
+    {
+     "spec": "ua_country__all__all__cnt__lift__mean",
+     "cheap": 0.48532617801902156
+    },
+    {
+     "spec": "ua_decade__all__h60__dur__none__sum",
+     "cheap": 0.4853138891128743
+    },
+    {
+     "spec": "di_sex__complete__all__cnt__none__-",
+     "cheap": 0.48526599045216856
+    },
+    {
+     "spec": "ua_decade__complete__h30__cnt__rate__mean",
+     "cheap": 0.4850353478032506
+    },
+    {
+     "spec": "di_sex__complete__h60__cnt__lift__-",
+     "cheap": 0.48485593195827525
+    },
+    {
+     "spec": "di_kids_flg__drop__w7__dur__rate__-",
+     "cheap": 0.48441976779911305
+    },
+    {
+     "spec": "di_sex__drop__w3__dur__none__-",
+     "cheap": 0.48436751777771486
+    },
+    {
+     "spec": "di_income__all__w60__dur__share__-",
+     "cheap": 0.48427374685760805
+    },
+    {
+     "spec": "di_sex__complete__h14__dur__none__-",
+     "cheap": 0.4840677372135664
+    },
+    {
+     "spec": "di_income__drop__w7__cnt__rate__-",
+     "cheap": 0.48384559846540803
+    },
+    {
+     "spec": "item__all__w14__cnt__none__-",
+     "cheap": 0.4838045305499938
+    },
+    {
+     "spec": "di_income__complete__w60__dur__share__-",
+     "cheap": 0.4838018378039589
+    },
+    {
+     "spec": "di_kids_flg__all__h14__pct__none__-",
+     "cheap": 0.483597445341459
+    },
+    {
+     "spec": "di_sex__all__h30__pct__none__-",
+     "cheap": 0.4834636169762927
+    },
+    {
+     "spec": "item__all__w3__dur__none__-",
+     "cheap": 0.4834440674017821
+    },
+    {
+     "spec": "di_kids_flg__all__h3__pct__none__-",
+     "cheap": 0.483420127942153
+    },
+    {
+     "spec": "ua_country__all__w30__dur__none__max",
+     "cheap": 0.4831238574937658
+    },
+    {
+     "spec": "di_sex__all__w30__dur__share__-",
+     "cheap": 0.48302695269132323
+    },
+    {
+     "spec": "item__drop__w7__cnt__rate__-",
+     "cheap": 0.4826035169779473
+    },
+    {
+     "spec": "di_income__all__w14__dur__none__-",
+     "cheap": 0.48254214875313234
+    },
+    {
+     "spec": "item__drop__h3__cnt__share__-",
+     "cheap": 0.4822701728564557
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_country__all__h7__dur__none__mean",
+     "ndcg": 0.15173089436945741
+    },
+    {
+     "spec": "ua_country__all__w60__dur__lift__max",
+     "ndcg": 0.15120994360542508
+    },
+    {
+     "spec": "di_kids_flg__drop__w30__cnt__lift__-",
+     "ndcg": 0.15151258826023856
+    },
+    {
+     "spec": "ua_country__all__all__cnt__lift__mean",
+     "ndcg": 0.15194538340072405
+    }
+   ],
+   "elapsed": 383.0125732999877
+  },
+  {
+   "step": 2,
+   "accepted": null,
+   "ndcg": 0.15194538340072405,
+   "tried": [
+    {
+     "spec": "di_kids_flg__complete__w60__cnt__none__-",
+     "cheap": 0.4872237854127846
+    },
+    {
+     "spec": "di_sex__drop__w3__cnt__lift__-",
+     "cheap": 0.48619817752367067
+    },
+    {
+     "spec": "ua_country__all__h30__cnt__share__mean",
+     "cheap": 0.4858623288751647
+    },
+    {
+     "spec": "ua_decade__complete__h14__dur__rate__max",
+     "cheap": 0.4858571199959533
+    },
+    {
+     "spec": "ua_country__all__all__cnt__share__sum",
+     "cheap": 0.48564792000392254
+    },
+    {
+     "spec": "di_age__drop__h60__cnt__lift__-",
+     "cheap": 0.4856475679578416
+    },
+    {
+     "spec": "di_age__complete__h60__dur__share__-",
+     "cheap": 0.48557093537477325
+    },
+    {
+     "spec": "ua_country__all__h60__cnt__share__sum",
+     "cheap": 0.4854753089824809
+    },
+    {
+     "spec": "di_income__drop__h60__dur__none__-",
+     "cheap": 0.485339684217648
+    },
+    {
+     "spec": "di_income__complete__h14__cnt__none__-",
+     "cheap": 0.48532110686670316
+    },
+    {
+     "spec": "di_age__all__h7__dur__none__-",
+     "cheap": 0.4852878078908531
+    },
+    {
+     "spec": "ua_decade__complete__h30__dur__rate__mean",
+     "cheap": 0.485170136102251
+    },
+    {
+     "spec": "di_sex__drop__all__cnt__none__-",
+     "cheap": 0.4848820167011095
+    },
+    {
+     "spec": "di_income__drop__w14__cnt__share__-",
+     "cheap": 0.4848748129259056
+    },
+    {
+     "spec": "ua_decade__all__all__first__none__sum",
+     "cheap": 0.4848137050607092
+    },
+    {
+     "spec": "di_income__drop__h7__dur__none__-",
+     "cheap": 0.4846392861335937
+    },
+    {
+     "spec": "di_income__complete__w30__cnt__rate__-",
+     "cheap": 0.4843260954052233
+    },
+    {
+     "spec": "di_kids_flg__drop__w7__dur__share__-",
+     "cheap": 0.48432571470007985
+    },
+    {
+     "spec": "ua_decade__all__h3__dur__lift__mean",
+     "cheap": 0.4841491470736854
+    },
+    {
+     "spec": "di_income__drop__w7__dur__lift__-",
+     "cheap": 0.484110893315848
+    },
+    {
+     "spec": "di_income__drop__w3__dur__rate__-",
+     "cheap": 0.4836561045029047
+    },
+    {
+     "spec": "item__all__all__first__none__-",
+     "cheap": 0.48356629429960707
+    },
+    {
+     "spec": "item__drop__h60__dur__share__-",
+     "cheap": 0.48332725823987044
+    },
+    {
+     "spec": "di_kids_flg__complete__w30__dur__share__-",
+     "cheap": 0.4824221193172148
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_kids_flg__complete__w60__cnt__none__-",
+     "ndcg": 0.15147775312422085
+    },
+    {
+     "spec": "di_sex__drop__w3__cnt__lift__-",
+     "ndcg": 0.1518612808703883
+    },
+    {
+     "spec": "ua_country__all__h30__cnt__share__mean",
+     "ndcg": 0.1516074912336173
+    },
+    {
+     "spec": "ua_decade__complete__h14__dur__rate__max",
+     "ndcg": 0.15169948560147278
+    }
+   ],
+   "elapsed": 605.6392315999838
+  },
+  {
+   "step": 3,
+   "accepted": null,
+   "ndcg": 0.15194538340072405,
+   "tried": [
+    {
+     "spec": "di_age__complete__h60__cnt__rate__-",
+     "cheap": 0.4869779861835403
+    },
+    {
+     "spec": "ua_decade__all__all__dur__none__max",
+     "cheap": 0.48691188590015044
+    },
+    {
+     "spec": "item__complete__w30__cnt__rate__-",
+     "cheap": 0.4863304184558601
+    },
+    {
+     "spec": "di_kids_flg__complete__w30__cnt__rate__-",
+     "cheap": 0.48607615472471616
+    },
+    {
+     "spec": "di_age__all__h3__cnt__lift__-",
+     "cheap": 0.485936363642138
+    },
+    {
+     "spec": "di_income__all__all__dur__share__-",
+     "cheap": 0.4856050493553549
+    },
+    {
+     "spec": "di_kids_flg__drop__h3__cnt__none__-",
+     "cheap": 0.48536238322386416
+    },
+    {
+     "spec": "di_sex__all__w7__dur__lift__-",
+     "cheap": 0.4852762195060108
+    },
+    {
+     "spec": "item__all__w60__cnt__none__-",
+     "cheap": 0.4852409411959006
+    },
+    {
+     "spec": "ua_country__complete__h30__dur__share__sum",
+     "cheap": 0.48507348063152494
+    },
+    {
+     "spec": "di_age__drop__w14__cnt__none__-",
+     "cheap": 0.4850564227144618
+    },
+    {
+     "spec": "di_income__complete__h30__dur__share__-",
+     "cheap": 0.48496991624029084
+    },
+    {
+     "spec": "ua_country__drop__h14__dur__rate__sum",
+     "cheap": 0.4849310789768283
+    },
+    {
+     "spec": "di_sex__complete__w14__dur__lift__-",
+     "cheap": 0.4848721581777658
+    },
+    {
+     "spec": "item__drop__w60__dur__none__-",
+     "cheap": 0.4847487314618659
+    },
+    {
+     "spec": "ua_decade__complete__w60__cnt__none__sum",
+     "cheap": 0.48465954297136227
+    },
+    {
+     "spec": "di_income__drop__w14__cnt__rate__-",
+     "cheap": 0.4843412843681408
+    },
+    {
+     "spec": "di_income__drop__w60__cnt__none__-",
+     "cheap": 0.4842557585479892
+    },
+    {
+     "spec": "di_sex__drop__w3__cnt__share__-",
+     "cheap": 0.48418999224004583
+    },
+    {
+     "spec": "ua_decade__all__h3__cnt__lift__mean",
+     "cheap": 0.4841453738244885
+    },
+    {
+     "spec": "ua_decade__all__h60__cnt__share__max",
+     "cheap": 0.4837817045618831
+    },
+    {
+     "spec": "di_age__complete__w14__cnt__none__-",
+     "cheap": 0.4837725902459915
+    },
+    {
+     "spec": "di_sex__all__w3__dur__none__-",
+     "cheap": 0.48356300246606027
+    },
+    {
+     "spec": "item__drop__w30__dur__none__-",
+     "cheap": 0.48342215163621194
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__complete__h60__cnt__rate__-",
+     "ndcg": 0.15138918077726843
+    },
+    {
+     "spec": "ua_decade__all__all__dur__none__max",
+     "ndcg": 0.1514165846382159
+    },
+    {
+     "spec": "item__complete__w30__cnt__rate__-",
+     "ndcg": 0.15200652432456124
+    },
+    {
+     "spec": "di_kids_flg__complete__w30__cnt__rate__-",
+     "ndcg": 0.15138077105453662
+    }
+   ],
+   "elapsed": 751.1644089000183
+  },
+  {
+   "step": 4,
+   "accepted": "ua_genre__all__h7__dur__none__sum",
+   "ndcg": 0.15334642815585478,
+   "tried": [
+    {
+     "spec": "ua_genre__all__h30__dur__none__mean",
+     "cheap": 0.49007473874788593
+    },
+    {
+     "spec": "ua_genre__all__h7__dur__none__sum",
+     "cheap": 0.4887165193641955
+    },
+    {
+     "spec": "di_sex__all__all__dur__share__-",
+     "cheap": 0.4871685996932683
+    },
+    {
+     "spec": "ua_country__drop__all__dur__rate__max",
+     "cheap": 0.4869162188317373
+    },
+    {
+     "spec": "di_age__complete__w7__dur__lift__-",
+     "cheap": 0.48676503094192664
+    },
+    {
+     "spec": "ua_genre__all__h30__cnt__share__sum",
+     "cheap": 0.486670286241628
+    },
+    {
+     "spec": "ua_genre__all__w60__dur__share__mean",
+     "cheap": 0.4864594257819772
+    },
+    {
+     "spec": "ua_country__all__h60__dur__lift__mean",
+     "cheap": 0.48588755219369706
+    },
+    {
+     "spec": "di_kids_flg__drop__w3__cnt__rate__-",
+     "cheap": 0.485623538169434
+    },
+    {
+     "spec": "ua_country__complete__h7__cnt__rate__sum",
+     "cheap": 0.48559170145280023
+    },
+    {
+     "spec": "di_sex__drop__w7__dur__rate__-",
+     "cheap": 0.4854469448668218
+    },
+    {
+     "spec": "di_sex__drop__w60__dur__share__-",
+     "cheap": 0.4853314764119616
+    },
+    {
+     "spec": "item__complete__h7__dur__share__-",
+     "cheap": 0.48513303177008954
+    },
+    {
+     "spec": "ua_decade__complete__h7__cnt__rate__sum",
+     "cheap": 0.4847833392485048
+    },
+    {
+     "spec": "di_age__drop__w30__cnt__share__-",
+     "cheap": 0.48458943347531036
+    },
+    {
+     "spec": "ua_decade__complete__all__dur__lift__sum",
+     "cheap": 0.4842320883972912
+    },
+    {
+     "spec": "di_age__all__w30__dur__share__-",
+     "cheap": 0.4840901735561069
+    },
+    {
+     "spec": "ua_decade__complete__h30__cnt__rate__max",
+     "cheap": 0.4840721119028971
+    },
+    {
+     "spec": "ua_decade__all__h7__dur__share__max",
+     "cheap": 0.4840662172777826
+    },
+    {
+     "spec": "di_income__drop__w3__dur__none__-",
+     "cheap": 0.4838758783211422
+    },
+    {
+     "spec": "di_kids_flg__drop__w60__cnt__none__-",
+     "cheap": 0.483781954041724
+    },
+    {
+     "spec": "ua_decade__complete__all__first__none__sum",
+     "cheap": 0.4836846977711605
+    },
+    {
+     "spec": "ua_decade__all__h3__cnt__none__sum",
+     "cheap": 0.48359524417828037
+    },
+    {
+     "spec": "ua_country__all__all__cnt__none__sum",
+     "cheap": 0.4835596700398328
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_genre__all__h30__dur__none__mean",
+     "ndcg": 0.1529721109441667
+    },
+    {
+     "spec": "ua_genre__all__h7__dur__none__sum",
+     "ndcg": 0.15334642815585478
+    },
+    {
+     "spec": "di_sex__all__all__dur__share__-",
+     "ndcg": 0.1528300209377082
+    },
+    {
+     "spec": "ua_country__drop__all__dur__rate__max",
+     "ndcg": 0.15178959774958933
+    }
+   ],
+   "elapsed": 909.914012800029
+  },
+  {
+   "step": 5,
+   "accepted": "di_sex__all__w7__cnt__share__-",
+   "ndcg": 0.15447711092219274,
+   "tried": [
+    {
+     "spec": "di_age__all__w60__cnt__lift__-",
+     "cheap": 0.48938452751313344
+    },
+    {
+     "spec": "di_sex__all__w7__cnt__share__-",
+     "cheap": 0.48883036217853004
+    },
+    {
+     "spec": "di_kids_flg__all__h14__cnt__none__-",
+     "cheap": 0.48871467145601644
+    },
+    {
+     "spec": "di_kids_flg__complete__all__cnt__share__-",
+     "cheap": 0.4886301194512412
+    },
+    {
+     "spec": "di_age__all__w30__cnt__share__-",
+     "cheap": 0.4885617536588576
+    },
+    {
+     "spec": "di_kids_flg__all__w30__cnt__share__-",
+     "cheap": 0.48854908989732093
+    },
+    {
+     "spec": "di_sex__drop__w30__cnt__lift__-",
+     "cheap": 0.48786165424948935
+    },
+    {
+     "spec": "di_sex__drop__all__dur__share__-",
+     "cheap": 0.4878401553394636
+    },
+    {
+     "spec": "di_income__all__w30__cnt__none__-",
+     "cheap": 0.4877995246066771
+    },
+    {
+     "spec": "di_age__all__h7__cnt__share__-",
+     "cheap": 0.48763405261652426
+    },
+    {
+     "spec": "di_sex__drop__h30__cnt__none__-",
+     "cheap": 0.48751229494721293
+    },
+    {
+     "spec": "di_age__complete__w7__cnt__none__-",
+     "cheap": 0.48741685950462676
+    },
+    {
+     "spec": "di_kids_flg__all__h7__dur__none__-",
+     "cheap": 0.4873697872501712
+    },
+    {
+     "spec": "item__drop__h60__dur__none__-",
+     "cheap": 0.48726816826757385
+    },
+    {
+     "spec": "di_age__complete__h3__dur__none__-",
+     "cheap": 0.4870906095935583
+    },
+    {
+     "spec": "ua_decade__all__h14__dur__none__max",
+     "cheap": 0.486865873545951
+    },
+    {
+     "spec": "di_age__all__w14__pct__none__-",
+     "cheap": 0.48673349856981435
+    },
+    {
+     "spec": "ua_decade__all__all__pct__none__mean",
+     "cheap": 0.4866951862456173
+    },
+    {
+     "spec": "item__drop__h60__cnt__none__-",
+     "cheap": 0.48647145069454395
+    },
+    {
+     "spec": "di_age__all__h7__dur__share__-",
+     "cheap": 0.4864273203972046
+    },
+    {
+     "spec": "item__complete__h30__cnt__none__-",
+     "cheap": 0.48626140149060126
+    },
+    {
+     "spec": "item__drop__w3__dur__share__-",
+     "cheap": 0.4861476212142805
+    },
+    {
+     "spec": "di_income__all__h14__dur__none__-",
+     "cheap": 0.48574531333346416
+    },
+    {
+     "spec": "item__complete__w3__dur__none__-",
+     "cheap": 0.4856229657169
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__all__w60__cnt__lift__-",
+     "ndcg": 0.1541833078022664
+    },
+    {
+     "spec": "di_sex__all__w7__cnt__share__-",
+     "ndcg": 0.15447711092219274
+    },
+    {
+     "spec": "di_kids_flg__all__h14__cnt__none__-",
+     "ndcg": 0.15334243161578637
+    },
+    {
+     "spec": "di_kids_flg__complete__all__cnt__share__-",
+     "ndcg": 0.15341537646904468
+    }
+   ],
+   "elapsed": 1071.6046778999735
+  },
+  {
+   "step": 6,
+   "accepted": "item__all__all__dur__none__-",
+   "ndcg": 0.15556329501719196,
+   "tried": [
+    {
+     "spec": "di_age__all__h7__cnt__none__-",
+     "cheap": 0.49137357254034814
+    },
+    {
+     "spec": "item__all__all__dur__none__-",
+     "cheap": 0.49101274824875835
+    },
+    {
+     "spec": "ua_country__complete__h14__dur__none__sum",
+     "cheap": 0.49075079448240677
+    },
+    {
+     "spec": "item__complete__w14__cnt__rate__-",
+     "cheap": 0.4894107640767911
+    },
+    {
+     "spec": "di_kids_flg__all__h30__pct__none__-",
+     "cheap": 0.48938847252279477
+    },
+    {
+     "spec": "ua_genre__all__all__cnt__lift__mean",
+     "cheap": 0.4893810207702112
+    },
+    {
+     "spec": "di_kids_flg__all__w30__dur__share__-",
+     "cheap": 0.48932238309333886
+    },
+    {
+     "spec": "ua_country__all__h30__cnt__lift__max",
+     "cheap": 0.48917542845715345
+    },
+    {
+     "spec": "di_kids_flg__drop__w30__cnt__none__-",
+     "cheap": 0.4889309260641308
+    },
+    {
+     "spec": "item__complete__h7__dur__none__-",
+     "cheap": 0.4887649279106511
+    },
+    {
+     "spec": "item__drop__h14__dur__share__-",
+     "cheap": 0.4886973357594003
+    },
+    {
+     "spec": "di_income__drop__w30__cnt__lift__-",
+     "cheap": 0.4886097057592433
+    },
+    {
+     "spec": "item__drop__h14__dur__none__-",
+     "cheap": 0.48846794674197097
+    },
+    {
+     "spec": "di_sex__complete__w30__dur__share__-",
+     "cheap": 0.48834676779088415
+    },
+    {
+     "spec": "di_sex__all__w3__dur__none__-",
+     "cheap": 0.48830341328772675
+    },
+    {
+     "spec": "di_age__all__w60__cnt__share__-",
+     "cheap": 0.48806603273766586
+    },
+    {
+     "spec": "di_age__complete__w3__cnt__none__-",
+     "cheap": 0.4879479865920483
+    },
+    {
+     "spec": "ua_country__all__h14__cnt__lift__max",
+     "cheap": 0.4876926598545122
+    },
+    {
+     "spec": "di_income__drop__h14__cnt__share__-",
+     "cheap": 0.4876085261360688
+    },
+    {
+     "spec": "di_age__all__all__pct__none__-",
+     "cheap": 0.4875588561222236
+    },
+    {
+     "spec": "di_sex__all__all__dur__none__-",
+     "cheap": 0.48751673505349385
+    },
+    {
+     "spec": "di_income__all__w3__dur__share__-",
+     "cheap": 0.4872954542715712
+    },
+    {
+     "spec": "item__drop__h60__cnt__none__-",
+     "cheap": 0.4868773863887247
+    },
+    {
+     "spec": "item__drop__w3__dur__share__-",
+     "cheap": 0.48559299531626887
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__all__h7__cnt__none__-",
+     "ndcg": 0.15428808681185663
+    },
+    {
+     "spec": "item__all__all__dur__none__-",
+     "ndcg": 0.15556329501719196
+    },
+    {
+     "spec": "ua_country__complete__h14__dur__none__sum",
+     "ndcg": 0.15362681399772088
+    },
+    {
+     "spec": "item__complete__w14__cnt__rate__-",
+     "ndcg": 0.15493062700190685
+    }
+   ],
+   "elapsed": 1320.0910463000182
+  },
+  {
+   "step": 7,
+   "accepted": null,
+   "ndcg": 0.15556329501719196,
+   "tried": [
+    {
+     "spec": "di_age__drop__h14__cnt__share__-",
+     "cheap": 0.4921368959902597
+    },
+    {
+     "spec": "item__drop__h14__cnt__rate__-",
+     "cheap": 0.4916047415344736
+    },
+    {
+     "spec": "di_age__drop__w30__cnt__none__-",
+     "cheap": 0.4914771195520327
+    },
+    {
+     "spec": "ua_decade__all__h3__dur__none__sum",
+     "cheap": 0.49115153429194575
+    },
+    {
+     "spec": "di_sex__drop__w30__cnt__share__-",
+     "cheap": 0.4908694638622674
+    },
+    {
+     "spec": "ua_decade__all__all__cnt__share__sum",
+     "cheap": 0.4908403138872386
+    },
+    {
+     "spec": "di_age__complete__h30__dur__none__-",
+     "cheap": 0.49082647377204663
+    },
+    {
+     "spec": "di_age__complete__h14__dur__none__-",
+     "cheap": 0.4906827349589085
+    },
+    {
+     "spec": "ua_country__complete__all__cnt__rate__sum",
+     "cheap": 0.4906285013056305
+    },
+    {
+     "spec": "di_sex__all__w30__cnt__lift__-",
+     "cheap": 0.49020468702575454
+    },
+    {
+     "spec": "di_income__complete__h60__dur__share__-",
+     "cheap": 0.49013986085295
+    },
+    {
+     "spec": "di_sex__all__w3__pct__none__-",
+     "cheap": 0.48996275527523625
+    },
+    {
+     "spec": "di_income__complete__w30__cnt__share__-",
+     "cheap": 0.489803712950161
+    },
+    {
+     "spec": "di_age__all__h3__dur__share__-",
+     "cheap": 0.4895032438479526
+    },
+    {
+     "spec": "item__all__w30__dur__share__-",
+     "cheap": 0.4892854726171116
+    },
+    {
+     "spec": "ua_decade__complete__h30__cnt__rate__mean",
+     "cheap": 0.48918426514868457
+    },
+    {
+     "spec": "di_kids_flg__complete__all__cnt__share__-",
+     "cheap": 0.48875449395640497
+    },
+    {
+     "spec": "di_income__all__h60__pct__none__-",
+     "cheap": 0.48874223600303773
+    },
+    {
+     "spec": "di_kids_flg__all__w60__pct__none__-",
+     "cheap": 0.48864135763424715
+    },
+    {
+     "spec": "item__all__w14__dur__share__-",
+     "cheap": 0.4885536954318499
+    },
+    {
+     "spec": "di_sex__complete__w60__cnt__share__-",
+     "cheap": 0.48854181884897213
+    },
+    {
+     "spec": "ua_decade__all__h30__dur__none__mean",
+     "cheap": 0.48831579743787223
+    },
+    {
+     "spec": "di_age__complete__all__cnt__none__-",
+     "cheap": 0.4882324078640354
+    },
+    {
+     "spec": "di_sex__all__h14__cnt__share__-",
+     "cheap": 0.4870203461350991
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_age__drop__h14__cnt__share__-",
+     "ndcg": 0.15540030252206385
+    },
+    {
+     "spec": "item__drop__h14__cnt__rate__-",
+     "ndcg": 0.15525683587690847
+    },
+    {
+     "spec": "di_age__drop__w30__cnt__none__-",
+     "ndcg": 0.15522313219527112
+    },
+    {
+     "spec": "ua_decade__all__h3__dur__none__sum",
+     "ndcg": 0.15513643350292053
+    }
+   ],
+   "elapsed": 1591.6203421999817
+  },
+  {
+   "step": 8,
+   "accepted": "ua_decade__all__w60__dur__none__mean",
+   "ndcg": 0.15623778224078883,
+   "tried": [
+    {
+     "spec": "ua_genre__all__h7__cnt__lift__mean",
+     "cheap": 0.4931759991943192
+    },
+    {
+     "spec": "di_kids_flg__drop__w3__dur__lift__-",
+     "cheap": 0.4917410501069217
+    },
+    {
+     "spec": "ua_decade__all__w60__dur__none__mean",
+     "cheap": 0.49139064523431764
+    },
+    {
+     "spec": "item__complete__w3__dur__rate__-",
+     "cheap": 0.49138009839030383
+    },
+    {
+     "spec": "ua_country__all__w30__dur__share__max",
+     "cheap": 0.49108939329511525
+    },
+    {
+     "spec": "di_income__drop__w7__cnt__rate__-",
+     "cheap": 0.4906234062898457
+    },
+    {
+     "spec": "ua_decade__complete__h3__cnt__none__mean",
+     "cheap": 0.49036932720745297
+    },
+    {
+     "spec": "ua_decade__complete__h3__cnt__none__max",
+     "cheap": 0.49036932720745297
+    },
+    {
+     "spec": "di_sex__drop__all__recency__none__-",
+     "cheap": 0.4902525728126616
+    },
+    {
+     "spec": "di_sex__complete__h60__dur__none__-",
+     "cheap": 0.49002814377911946
+    },
+    {
+     "spec": "di_sex__all__all__pct__none__-",
+     "cheap": 0.49002425170870695
+    },
+    {
+     "spec": "di_income__complete__h7__dur__lift__-",
+     "cheap": 0.4896502084868762
+    },
+    {
+     "spec": "di_sex__complete__w14__dur__none__-",
+     "cheap": 0.48952757894664706
+    },
+    {
+     "spec": "ua_decade__complete__h7__dur__share__mean",
+     "cheap": 0.48951843105539145
+    },
+    {
+     "spec": "ua_country__all__h7__dur__none__mean",
+     "cheap": 0.48948587201320654
+    },
+    {
+     "spec": "ua_country__all__w60__dur__none__sum",
+     "cheap": 0.4894059230622714
+    },
+    {
+     "spec": "di_kids_flg__complete__w60__cnt__rate__-",
+     "cheap": 0.4892857275166016
+    },
+    {
+     "spec": "ua_decade__all__h60__dur__share__sum",
+     "cheap": 0.4892678002418629
+    },
+    {
+     "spec": "di_age__drop__w3__dur__rate__-",
+     "cheap": 0.48921028060125005
+    },
+    {
+     "spec": "ua_decade__all__all__cnt__lift__sum",
+     "cheap": 0.48874539415947205
+    },
+    {
+     "spec": "di_sex__drop__h60__cnt__none__-",
+     "cheap": 0.4884499225448814
+    },
+    {
+     "spec": "di_income__drop__h7__cnt__lift__-",
+     "cheap": 0.48807635482456974
+    },
+    {
+     "spec": "ua_decade__complete__w60__cnt__none__mean",
+     "cheap": 0.48807394245702496
+    },
+    {
+     "spec": "di_age__complete__w30__cnt__none__-",
+     "cheap": 0.48804927205988036
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_genre__all__h7__cnt__lift__mean",
+     "ndcg": 0.15575778968785509
+    },
+    {
+     "spec": "di_kids_flg__drop__w3__dur__lift__-",
+     "ndcg": 0.15550076138952856
+    },
+    {
+     "spec": "ua_decade__all__w60__dur__none__mean",
+     "ndcg": 0.15623778224078883
+    },
+    {
+     "spec": "item__complete__w3__dur__rate__-",
+     "ndcg": 0.1549696278635555
+    }
+   ],
+   "elapsed": 1794.9750659000129
+  },
+  {
+   "step": 9,
+   "accepted": null,
+   "ndcg": 0.15623778224078883,
+   "tried": [
+    {
+     "spec": "ua_country__all__h30__dur__none__sum",
+     "cheap": 0.49245444539429467
+    },
+    {
+     "spec": "di_kids_flg__drop__w14__cnt__share__-",
+     "cheap": 0.49218671795005137
+    },
+    {
+     "spec": "item__drop__all__cnt__rate__-",
+     "cheap": 0.49198059208026523
+    },
+    {
+     "spec": "item__all__all__dur__share__-",
+     "cheap": 0.4915625377565234
+    },
+    {
+     "spec": "item__complete__w14__dur__share__-",
+     "cheap": 0.4914932559480951
+    },
+    {
+     "spec": "di_income__drop__h60__cnt__lift__-",
+     "cheap": 0.4913464088407226
+    },
+    {
+     "spec": "di_kids_flg__drop__h30__dur__none__-",
+     "cheap": 0.49119461249055896
+    },
+    {
+     "spec": "di_age__drop__h7__cnt__none__-",
+     "cheap": 0.490939084022558
+    },
+    {
+     "spec": "di_income__complete__w7__cnt__rate__-",
+     "cheap": 0.4908577222034451
+    },
+    {
+     "spec": "di_kids_flg__all__w7__dur__lift__-",
+     "cheap": 0.49063415743785044
+    },
+    {
+     "spec": "di_age__all__w30__cnt__none__-",
+     "cheap": 0.4905780838786937
+    },
+    {
+     "spec": "di_kids_flg__complete__w7__cnt__none__-",
+     "cheap": 0.4904961714492775
+    },
+    {
+     "spec": "di_sex__complete__w30__dur__lift__-",
+     "cheap": 0.4903864879198486
+    },
+    {
+     "spec": "di_sex__all__h30__pct__none__-",
+     "cheap": 0.49037030314334384
+    },
+    {
+     "spec": "item__all__h14__dur__none__-",
+     "cheap": 0.4902559434860735
+    },
+    {
+     "spec": "di_kids_flg__complete__h14__dur__share__-",
+     "cheap": 0.49025087661228334
+    },
+    {
+     "spec": "ua_decade__complete__w60__dur__rate__max",
+     "cheap": 0.4901781412953371
+    },
+    {
+     "spec": "ua_decade__all__h7__cnt__none__max",
+     "cheap": 0.49013010674508617
+    },
+    {
+     "spec": "ua_decade__complete__all__dur__rate__mean",
+     "cheap": 0.4900866726910408
+    },
+    {
+     "spec": "ua_country__all__all__pct__none__sum",
+     "cheap": 0.48998200990986296
+    },
+    {
+     "spec": "item__all__w30__pct__none__-",
+     "cheap": 0.48988239131832834
+    },
+    {
+     "spec": "di_income__drop__all__cnt__lift__-",
+     "cheap": 0.4898127900672838
+    },
+    {
+     "spec": "di_sex__complete__w14__dur__share__-",
+     "cheap": 0.48906152191160057
+    },
+    {
+     "spec": "di_sex__all__w14__dur__none__-",
+     "cheap": 0.48868877143351364
+    }
+   ],
+   "full": [
+    {
+     "spec": "ua_country__all__h30__dur__none__sum",
+     "ndcg": 0.1554730288715053
+    },
+    {
+     "spec": "di_kids_flg__drop__w14__cnt__share__-",
+     "ndcg": 0.15438394219585924
+    },
+    {
+     "spec": "item__drop__all__cnt__rate__-",
+     "ndcg": 0.1548651187884123
+    },
+    {
+     "spec": "item__all__all__dur__share__-",
+     "ndcg": 0.1554674891232081
+    }
+   ],
+   "elapsed": 1959.6307503000135
+  },
+  {
+   "step": 10,
+   "accepted": null,
+   "ndcg": 0.15623778224078883,
+   "tried": [
+    {
+     "spec": "di_income__drop__h3__dur__share__-",
+     "cheap": 0.49273445087539525
+    },
+    {
+     "spec": "ua_decade__all__h3__cnt__share__sum",
+     "cheap": 0.49129889266610055
+    },
+    {
+     "spec": "di_age__all__h30__cnt__lift__-",
+     "cheap": 0.4910730150207733
+    },
+    {
+     "spec": "ua_country__complete__w60__dur__share__sum",
+     "cheap": 0.49100583366057987
+    },
+    {
+     "spec": "ua_decade__all__w30__cnt__none__sum",
+     "cheap": 0.49100364666424634
+    },
+    {
+     "spec": "ua_genre__complete__h30__cnt__none__mean",
+     "cheap": 0.4908941759815919
+    },
+    {
+     "spec": "item__drop__h60__dur__none__-",
+     "cheap": 0.49086458310594877
+    },
+    {
+     "spec": "di_sex__all__w30__dur__none__-",
+     "cheap": 0.49082803153105586
+    },
+    {
+     "spec": "ua_decade__all__all__dur__none__max",
+     "cheap": 0.4907779611919878
+    },
+    {
+     "spec": "ua_decade__all__w60__cnt__none__max",
+     "cheap": 0.49067813587211095
+    },
+    {
+     "spec": "di_sex__all__w14__cnt__share__-",
+     "cheap": 0.4906713836207626
+    },
+    {
+     "spec": "ua_decade__complete__all__cnt__share__mean",
+     "cheap": 0.49053635898617687
+    },
+    {
+     "spec": "ua_country__all__w60__dur__none__max",
+     "cheap": 0.49038466674657705
+    },
+    {
+     "spec": "ua_decade__complete__h30__cnt__none__mean",
+     "cheap": 0.4903119016592329
+    },
+    {
+     "spec": "item__all__h14__dur__none__-",
+     "cheap": 0.4902559434860735
+    },
+    {
+     "spec": "di_income__all__all__pct__none__-",
+     "cheap": 0.49020983638257554
+    },
+    {
+     "spec": "ua_genre__all__h30__dur__share__mean",
+     "cheap": 0.4900171291293729
+    },
+    {
+     "spec": "ua_country__all__h60__dur__share__max",
+     "cheap": 0.48988428416941726
+    },
+    {
+     "spec": "item__complete__w30__cnt__share__-",
+     "cheap": 0.48981477993014444
+    },
+    {
+     "spec": "ua_country__all__h14__dur__lift__sum",
+     "cheap": 0.4896444811015933
+    },
+    {
+     "spec": "item__all__h30__dur__none__-",
+     "cheap": 0.48934518276628847
+    },
+    {
+     "spec": "di_income__all__w3__dur__none__-",
+     "cheap": 0.48909872917366193
+    },
+    {
+     "spec": "di_age__drop__h14__dur__lift__-",
+     "cheap": 0.48909331433981096
+    },
+    {
+     "spec": "di_sex__all__w60__cnt__none__-",
+     "cheap": 0.48863198602578434
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_income__drop__h3__dur__share__-",
+     "ndcg": 0.1549414039216999
+    },
+    {
+     "spec": "ua_decade__all__h3__cnt__share__sum",
+     "ndcg": 0.15599064723519332
+    },
+    {
+     "spec": "di_age__all__h30__cnt__lift__-",
+     "ndcg": 0.15542918856021468
+    },
+    {
+     "spec": "ua_country__complete__w60__dur__share__sum",
+     "ndcg": 0.1552948394931098
+    }
+   ],
+   "elapsed": 2140.002271800011
+  },
+  {
+   "step": 11,
+   "accepted": null,
+   "ndcg": 0.15623778224078883,
+   "tried": [
+    {
+     "spec": "di_income__complete__w3__dur__lift__-",
+     "cheap": 0.4916080201397269
+    },
+    {
+     "spec": "di_age__complete__h14__cnt__share__-",
+     "cheap": 0.49148212434232535
+    },
+    {
+     "spec": "di_kids_flg__complete__w7__cnt__rate__-",
+     "cheap": 0.49143013956060727
+    },
+    {
+     "spec": "ua_country__all__h14__dur__none__max",
+     "cheap": 0.49130112204508297
+    },
+    {
+     "spec": "di_age__complete__h3__dur__lift__-",
+     "cheap": 0.49104705683332067
+    },
+    {
+     "spec": "di_kids_flg__complete__w3__cnt__rate__-",
+     "cheap": 0.49077577422834473
+    },
+    {
+     "spec": "di_sex__drop__h14__cnt__share__-",
+     "cheap": 0.49075799753140653
+    },
+    {
+     "spec": "di_income__drop__h14__cnt__lift__-",
+     "cheap": 0.49068744099943873
+    },
+    {
+     "spec": "di_sex__complete__h30__dur__share__-",
+     "cheap": 0.4906732790051941
+    },
+    {
+     "spec": "item__drop__w3__cnt__rate__-",
+     "cheap": 0.4905405620869598
+    },
+    {
+     "spec": "ua_genre__all__h30__cnt__none__mean",
+     "cheap": 0.4905257356384074
+    },
+    {
+     "spec": "ua_decade__complete__h60__cnt__rate__mean",
+     "cheap": 0.49046147635288534
+    },
+    {
+     "spec": "di_sex__drop__w14__dur__lift__-",
+     "cheap": 0.49043314937768095
+    },
+    {
+     "spec": "di_income__drop__h60__dur__share__-",
+     "cheap": 0.4903952621528248
+    },
+    {
+     "spec": "item__all__h14__dur__none__-",
+     "cheap": 0.4902559434860735
+    },
+    {
+     "spec": "di_age__drop__w7__cnt__lift__-",
+     "cheap": 0.49024126906008103
+    },
+    {
+     "spec": "ua_country__all__h7__dur__share__max",
+     "cheap": 0.4901285890565793
+    },
+    {
+     "spec": "di_sex__all__w60__dur__none__-",
+     "cheap": 0.4899365882350166
+    },
+    {
+     "spec": "di_sex__all__w30__cnt__none__-",
+     "cheap": 0.48979166203947233
+    },
+    {
+     "spec": "ua_decade__all__h60__pct__none__sum",
+     "cheap": 0.4897898849797234
+    },
+    {
+     "spec": "item__all__w60__cnt__none__-",
+     "cheap": 0.48875422899864734
+    },
+    {
+     "spec": "di_sex__drop__w14__dur__none__-",
+     "cheap": 0.48824042845055327
+    },
+    {
+     "spec": "ua_country__all__h7__dur__none__mean",
+     "cheap": 0.4881065935145275
+    },
+    {
+     "spec": "item__complete__h60__cnt__share__-",
+     "cheap": 0.48804734391177196
+    }
+   ],
+   "full": [
+    {
+     "spec": "di_income__complete__w3__dur__lift__-",
+     "ndcg": 0.15569681551043332
+    },
+    {
+     "spec": "di_age__complete__h14__cnt__share__-",
+     "ndcg": 0.15439072010323382
+    },
+    {
+     "spec": "di_kids_flg__complete__w7__cnt__rate__-",
+     "ndcg": 0.1549058458888295
+    },
+    {
+     "spec": "ua_country__all__h14__dur__none__max",
+     "ndcg": 0.15502302678255017
+    }
+   ],
+   "elapsed": 2306.7103316999855
+  }
+ ]
+}
