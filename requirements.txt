@@ -1,0 +1,15 @@
+duckdb==2.0.0
+ipykernel==7.4.0
+jupyter==1.1.1
+jupytext==1.19.6
+lightgbm==4.7.0
+matplotlib==3.11.2
+numpy==2.5.4
+openai==3.37.0
+optuna==5.0.0
+pandas==3.1.0
+polars==2.0.0
+pyarrow==26.0.0
+python-dotenv==1.2.4
+scikit-learn==1.9.1
+scipy==1.18.1

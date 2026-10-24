@@ -1,0 +1,1 @@
+{"llm": {"calls": 16, "cached": 1, "seconds": 1419.1460078999517, "prompt_tokens": 84059, "completion_tokens": 143627}, "parse": {"proposed": 240, "valid": 214, "duplicates": 3}}
