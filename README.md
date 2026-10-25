@@ -11,6 +11,8 @@
 
 Основное исследование — в ноутбуке [solution.ipynb](solution.ipynb), масштабируемость и проверка на полном датасете — в [scalability.ipynb](scalability.ipynb). Здесь краткое изложение.
 
+Готовые версии с выводами на Kaggle: [основной эксперимент](https://www.kaggle.com/code/madina404/recsys-auto-features-main-experiment), [масштабируемость](https://www.kaggle.com/code/madina404/recsys-auto-features-scalability).
+
 ## Постановка
 
 - **Задача:** по истории до даты `T` выбрать 10 тайтлов, которые пользователь посмотрит в неделю `[T, T+7)`. Уже просмотренное не рекомендуется.
@@ -161,6 +163,8 @@ LogLoss бинарной постановки на неделе 16.08: конс�
 ## Как воспроизвести
 
 ### На Kaggle (основной способ, им получены все цифры отчёта)
+
+Готовые публичные версии: [основной эксперимент](https://www.kaggle.com/code/madina404/recsys-auto-features-main-experiment) и [масштабируемость](https://www.kaggle.com/code/madina404/recsys-auto-features-scalability). Основной эксперимент опубликован как повторный прогон, поэтому цифры в его выводах отличаются от таблиц в этом README в третьем знаке (см. «Два независимых прогона»). Текст ячеек в нём написан по первому прогону и в части про прирост от объединения устарел; актуальные выводы — в README и в `solution.ipynb` этого репозитория.
 
 1. **Create → New Notebook**, затем **File → Import Notebook → вкладка GitHub**, вставить ссылку на `solution.ipynb` из этого репозитория.
 2. В правой панели **Settings → Internet: On**, ускоритель не нужен.
